@@ -1,24 +1,31 @@
 using UnityEngine;
-using TMPro; // REQUIRED for TextMeshPro
+using TMPro;
 
 public class FloatingText : MonoBehaviour
 {
     public float moveSpeed = 2f;
     public float destroyTime = 1f;
     
-    // Change "TextMesh" to "TextMeshPro"
-    private TextMeshPro textMesh; 
+    private TMP_Text textMesh; // TMP_Text works for BOTH 3D and UI versions
 
     void Awake()
     {
-        // Get the TMP component instead of the old one
-        textMesh = GetComponent<TextMeshPro>();
+        // Try to find ANY TextMeshPro component
+        textMesh = GetComponent<TMP_Text>();
+        
+        if (textMesh == null) 
+        {
+            Debug.LogError("FloatingText Error: No TextMeshPro component found on this object!");
+        }
     }
 
     public void Setup(string textToDisplay, Color color)
     {
-        textMesh.text = textToDisplay;
-        textMesh.color = color;
+        if (textMesh != null)
+        {
+            textMesh.text = textToDisplay;
+            textMesh.color = color;
+        }
     }
 
     void Start()

@@ -226,8 +226,8 @@ Transform:
   m_GameObject: {fileID: 35872427}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 0.84, z: 3.21}
-  m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
+  m_LocalPosition: {x: 3.5, y: 1.25, z: 3.21}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 100
-  popupTextPrefab: {fileID: 0}
+  popupTextPrefab: {fileID: 366716070382462023, guid: 89a4fcfcee3ecd244950f9bcc4ed454c, type: 3}
 --- !u!1 &147951351
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,7 +421,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -446,7 +446,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 7.65, z: -7.65}
+  m_LocalPosition: {x: 0, y: 7.65, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -751,7 +751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c610bf2d884a1d94ab8f3ef64487b352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SkillCaster
-  projectilePrefab: {fileID: 3636844892620527779, guid: 776f184f2d3936147b6a378671682d87, type: 3}
+  projectilePrefab: {fileID: 5855952458864801277, guid: 37476e3c46dc5ef4db89ce8822ab937e, type: 3}
   firePoint: {fileID: 1946212017}
   groundLayer:
     serializedVersion: 2
