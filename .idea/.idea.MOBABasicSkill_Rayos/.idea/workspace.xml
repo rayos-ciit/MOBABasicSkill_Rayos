@@ -35,6 +35,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
@@ -100,6 +101,7 @@
       <workItem from="1770390313683" duration="4930000" />
       <workItem from="1770473610839" duration="7000" />
       <workItem from="1770473625524" duration="2227000" />
+      <workItem from="1772187824705" duration="326000" />
     </task>
     <servers />
   </component>
