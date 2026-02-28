@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bbf1780f69f3514386907cf9624802d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 100
+  maxHealth: 200
   popupTextPrefab: {fileID: 366716070382462023, guid: 89a4fcfcee3ecd244950f9bcc4ed454c, type: 3}
 --- !u!1 &147951351
 GameObject:
@@ -773,6 +773,9 @@ MonoBehaviour:
   maxDistance: 15
   tickDamage: 15
   tickRate: 0.2
+  duration: 3
+  cooldown: 2
+  turnSpeed: 3
   firePoint: {fileID: 2114263156}
   groundLayer:
     serializedVersion: 2
